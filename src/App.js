@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import Header from "./components/layout/Header";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <h1>Welcome to React Redux Localstore</h1>
+        <Header />
       </div>
     );
   }
